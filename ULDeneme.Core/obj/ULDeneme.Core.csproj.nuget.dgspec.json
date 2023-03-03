@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {}
+    "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+    "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
         "projectName": "ULDeneme.Core",
-        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+        "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\obj\\",
         "projectStyle": "PackageReference",

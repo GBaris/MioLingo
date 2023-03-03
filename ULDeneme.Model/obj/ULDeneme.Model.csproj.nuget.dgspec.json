@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {}
+    "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+    "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
         "projectName": "ULDeneme.Core",
-        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+        "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -65,12 +65,12 @@
         }
       }
     },
-    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
+    "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj",
         "projectName": "ULDeneme.Model",
-        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj",
+        "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\obj\\",
         "projectStyle": "PackageReference",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
-                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj"
+              "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+                "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj"
               }
             }
           }

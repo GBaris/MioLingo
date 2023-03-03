@@ -603,9 +603,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
+      "projectUniqueName": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
       "projectName": "ULDeneme.ViewModel",
-      "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
+      "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
       "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\obj\\",
       "projectStyle": "PackageReference",
@@ -624,8 +624,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
-              "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj"
+            "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
+              "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj"
             }
           }
         }
