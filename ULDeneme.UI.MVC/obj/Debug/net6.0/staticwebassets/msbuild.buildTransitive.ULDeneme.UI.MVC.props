@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ULDeneme.UI.MVC.props" />
+</Project>
