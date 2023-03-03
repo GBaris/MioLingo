@@ -81,9 +81,14 @@
         </nav>
     </header>
 
-    <div class="row">
-        <div class="col-2">
-                <nav id="sidebarMenu" class="sidebar-sticky">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <button class="navbar-toggler mt-4" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <nav id="sidebarMenu" class="sidebar-sticky collapse show">
                     <div class="list-group list-group-flush mx-3 mt-4">
                         <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                             <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Hoş Geldiniz</span>
@@ -102,12 +107,15 @@
                     </div>
                 </nav>
             </div>
-        <div class=" container col-8">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
+            <div class="col-md-10">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
         </div>
     </div>
+
+
 
     <footer class="border-top footer text-muted">
         <div class="container">
