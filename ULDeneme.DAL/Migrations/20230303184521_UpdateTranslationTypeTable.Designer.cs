@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ULDeneme.DAL.Concrete.Context;
 
@@ -11,9 +12,11 @@ using ULDeneme.DAL.Concrete.Context;
 namespace ULDeneme.DAL.Migrations
 {
     [DbContext(typeof(ULDenemeDbContext))]
-    partial class ULDenemeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230303184521_UpdateTranslationTypeTable")]
+    partial class UpdateTranslationTypeTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -88,11 +91,6 @@ namespace ULDeneme.DAL.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("KnownLangShort")
-                        .IsRequired()
-                        .HasMaxLength(2)
-                        .HasColumnType("nvarchar(2)");
-
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
@@ -105,11 +103,6 @@ namespace ULDeneme.DAL.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("UnknownLangShort")
-                        .IsRequired()
-                        .HasMaxLength(2)
-                        .HasColumnType("nvarchar(2)");
 
                     b.Property<int>("UserID")
                         .HasColumnType("int");

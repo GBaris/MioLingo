@@ -16,25 +16,30 @@ namespace ULDeneme.Model.Entities
         {
             IsActive = true;
         }
-
         public int UserID { get; set; }
         public User? User { get; set; }
         public UserRole UserRole { get; set; }
-
         private string _knownLang;
         public string KnownLang
         {
             get { return _knownLang; }
-            set { _knownLang = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(value.ToLower()); }
+            set
+            {
+                _knownLang = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(value.ToLower());
+                KnownLangShort = GetLangShort(_knownLang);
+            }
         }
 
         private string _unknownLang;
         public string UnknownLang
         {
             get { return _unknownLang; }
-            set { _unknownLang = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(value.ToLower()); }
+            set
+            {
+                _unknownLang = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(value.ToLower());
+                UnknownLangShort = GetLangShort(_unknownLang);
+            }
         }
-
         private string _name;
         public string? Name
         {
@@ -42,46 +47,26 @@ namespace ULDeneme.Model.Entities
             set { _name = UnknownLang + "-" + KnownLang + " Dictionary"; }
         }
 
-        public string KnownLangAbbreviation
-        {
-            get
-            {
-                switch (KnownLang)
-                {
-                    case "Almanca":
-                        return "DE";
-                    case "Fransızca":
-                        return "FR";
-                    case "Türkçe":
-                        return "TR";
-                    case "İngilizce":
-                        return "EN";
-                    default:
-                        return "";
-                }
-            }
-        }
-
-        public string UnknownLangAbbreviation
-        {
-            get
-            {
-                switch (UnknownLang)
-                {
-                    case "Almanca":
-                        return "DE";
-                    case "Fransızca":
-                        return "FR";
-                    case "Türkçe":
-                        return "TR";
-                    case "İngilizce":
-                        return "EN";
-                    default:
-                        return "";
-                }
-            }
-        }
+        public string KnownLangShort { get; set; }
+        public string UnknownLangShort { get; set; }
 
         public ICollection<Sozluk> Sozluks { get; set; }
+
+        private string GetLangShort(string lang)
+        {
+            switch (lang)
+            {
+                case "Almanca":
+                    return "de";
+                case "Fransızca":
+                    return "fr";
+                case "İngilizce":
+                    return "en";
+                case "Türkçe":
+                    return "tr";
+                default:
+                    return "";
+            }
+        }
     }
 }

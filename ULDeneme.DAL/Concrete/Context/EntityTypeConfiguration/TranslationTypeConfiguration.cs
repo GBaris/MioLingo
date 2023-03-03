@@ -24,6 +24,9 @@ namespace ULDeneme.DAL.Concrete.Context.EntityTypeConfiguration
             builder.Property(t => t.KnownLang).HasMaxLength(50).IsRequired();
             builder.Property(t => t.UnknownLang).HasMaxLength(50).IsRequired();
             builder.Property(t => t.Name).HasMaxLength(150).IsRequired();
+            builder.Property(t => t.KnownLangShort).HasMaxLength(2).IsRequired();
+            builder.Property(t => t.UnknownLangShort).HasMaxLength(2).IsRequired();
         }
     }
+
 }
