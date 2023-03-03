@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj": {}
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\ULDeneme.BLL.csproj": {
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\ULDeneme.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj",
         "projectName": "ULDeneme.BLL",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\ULDeneme.BLL.csproj",
+        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\obj\\",
+        "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,17 +28,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj"
               },
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.DAL\\ULDeneme.DAL.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.DAL\\ULDeneme.DAL.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.DAL\\ULDeneme.DAL.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.DAL\\ULDeneme.DAL.csproj"
               },
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj"
               },
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
         "projectName": "ULDeneme.Core",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj",
+        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\obj\\",
+        "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.DAL\\ULDeneme.DAL.csproj": {
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.DAL\\ULDeneme.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.DAL\\ULDeneme.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.DAL\\ULDeneme.DAL.csproj",
         "projectName": "ULDeneme.DAL",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.DAL\\ULDeneme.DAL.csproj",
+        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.DAL\\ULDeneme.DAL.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.DAL\\obj\\",
+        "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,11 +157,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj"
               },
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj"
               }
             }
           }
@@ -217,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj": {
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj",
         "projectName": "ULDeneme.Model",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj",
+        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\obj\\",
+        "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -241,8 +241,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Core\\ULDeneme.Core.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj"
               }
             }
           }
@@ -276,14 +276,14 @@
         }
       }
     },
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj": {
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
         "projectName": "ULDeneme.UI.MVC",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
+        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.UI.MVC\\obj\\",
+        "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.UI.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -300,11 +300,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\ULDeneme.BLL.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\ULDeneme.BLL.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj"
               },
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj"
               }
             }
           }
@@ -359,14 +359,14 @@
         }
       }
     },
-    "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
+    "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
         "projectName": "ULDeneme.ViewModel",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
+        "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.ViewModel\\obj\\",
+        "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -383,8 +383,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj": {
-                "projectPath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.Model\\ULDeneme.Model.csproj"
+              "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj": {
+                "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Model\\ULDeneme.Model.csproj"
               }
             }
           }

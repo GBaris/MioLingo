@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zqo+/uTIJGlOEcmS6pAV6LzzLvUFVsDqy8B3MKeIUOXsGKFLHLl7PFkqrc9u1zdQ4+wTT3n96+7/lyyCGGgyOw==",
+  "dgSpecHash": "0hWVGNviA8jrd8hLhZ3/NeUcAuVqefHv299vtYlgNsXcQgBtcv1U0pYi1C310jJ10IpDx5IVauopqsWVVPgIhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osman\\source\\repos\\UserLoginDeneme\\ULDeneme.BLL\\ULDeneme.BLL.csproj",
+  "projectFilePath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osman\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
