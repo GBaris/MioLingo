@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ULDeneme.Core\ULDeneme.Core.csproj" />
     <ProjectReference Include="..\ULDeneme.DAL\ULDeneme.DAL.csproj" />
     <ProjectReference Include="..\ULDeneme.Model\ULDeneme.Model.csproj" />

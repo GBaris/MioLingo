@@ -1173,6 +1173,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
           "ULDeneme.Core": "1.0.0",
           "ULDeneme.DAL": "1.0.0",
           "ULDeneme.Model": "1.0.0",
@@ -3660,7 +3661,7 @@
       "projectName": "ULDeneme.UI.MVC",
       "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
       "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.UI.MVC\\obj\\",
+      "outputPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
