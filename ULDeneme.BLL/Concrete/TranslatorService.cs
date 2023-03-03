@@ -42,5 +42,4 @@ namespace ULDeneme.BLL.Concrete
             }
         }
     }
-
 }
