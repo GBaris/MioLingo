@@ -18,19 +18,19 @@
         </div>
     </div>
 </form>
-<div class="row">
+@*<div class="row">
     <div class="col-12">
         <label id="suggestion-label">None</label>
     </div>
 </div>
 <div id="suggestions" style="position:absolute; z-index:1000; background-color:white; border:1px solid gray; display:none;">
     <div id="suggestion-list"></div>
-</div>
+</div>*@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function () {
     var input = $("#UnKVoc");
-    var suggestionLabel = $("#suggestion-label");
+/*    var suggestionLabel = $("#suggestion-label");*/
     var suggestButton = $("#suggestBtn");
 
     suggestButton.on("click", function() {
@@ -48,12 +48,12 @@ $(document).ready(function () {
                     suggestionList.empty();
                     if (data.length > 0) {
                         var suggestedText = data[0];
-                        suggestionLabel.text("Suggested: " + suggestedText);
-                        suggestionLabel.show();
+                        //suggestionLabel.text("Suggested: " + suggestedText);
+                        //suggestionLabel.show();
                         $("#KVoc").val(suggestedText);
                     }
                     else {
-                        suggestionLabel.hide();
+/*                        suggestionLabel.hide();*/
                     }
                 }
             });
