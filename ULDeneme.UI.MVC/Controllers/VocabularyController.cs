@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using ULDeneme.DAL.Concrete.Context;
 using System;
+using Newtonsoft.Json;
 
 namespace ULDeneme.UI.MVC.Controllers
 {
@@ -20,12 +21,16 @@ namespace ULDeneme.UI.MVC.Controllers
     {
         private readonly IVocabularyBLL _vocabularyBLL;
         private readonly ISozlukBLL _sozlukBLL;
+        private readonly ITranslationTypeBLL _translationTypeBLL;
         private readonly ULDenemeDbContext _context;
 
-        public VocabularyController(IVocabularyBLL vocabularyBLL, ISozlukBLL sozlukBLL)
+
+        public VocabularyController(IVocabularyBLL vocabularyBLL, ISozlukBLL sozlukBLL, ITranslationTypeBLL translationTypeBLL)
         {
             _vocabularyBLL = vocabularyBLL;
             _sozlukBLL = sozlukBLL;
+            _translationTypeBLL = translationTypeBLL;
+
         }
 
         public IActionResult Index(int sozlukID)
@@ -33,6 +38,9 @@ namespace ULDeneme.UI.MVC.Controllers
             ViewBag.SozlukID = sozlukID;
             var sozlukResult = _sozlukBLL.GetSozlukById(sozlukID);
             ViewBag.Title = sozlukResult.Data.Name;
+            var TranslationType = _translationTypeBLL.GetTypeById(sozlukResult.Data.TranslationTypeID);
+            @ViewBag.KnownLangShort = TranslationType.Data.KnownLangShort;
+            @ViewBag.UnknownLangShort = TranslationType.Data.UnknownLangShort;
             var userID = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
 
             if (!sozlukResult.IsSuccess || sozlukResult.Data.UserID != userID)
