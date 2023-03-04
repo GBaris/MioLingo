@@ -4,16 +4,81 @@
     <div class="row">
         <div class="form-group col-5">
             <label asp-for="UnKVoc" class="control-label"></label>
-            <input asp-for="UnKVoc" class="form-control" />
+            <input asp-for="UnKVoc" class="form-control" id="UnKVoc" />
             <span asp-validation-for="UnKVoc" class="text-danger"></span>
         </div>
         <div class="form-group col-5">
             <label asp-for="KVoc" class="control-label"></label>
-            <input asp-for="KVoc" class="form-control">
+            <input asp-for="KVoc" class="form-control" id="KVoc" />
             <span asp-validation-for="KVoc" class="text-danger"></span>
         </div>
         <div class="form-group col-2" style="padding-top: 24px">
             <input type="submit" value="Create" class="btn btn-primary" />
+            <button type="button" class="btn btn-secondary" id="suggestBtn">Suggest</button>
         </div>
     </div>
 </form>
+<div class="row">
+    <div class="col-12">
+        <label id="suggestion-label">None</label>
+    </div>
+</div>
+
+<div id="suggestions" style="position:absolute; z-index:1000; background-color:white; border:1px solid gray; display:none;">
+    <div id="suggestion-list"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function () {
+    var input = $("#UnKVoc");
+    var suggestionLabel = $("#suggestion-label");
+    var suggestButton = $("#suggestBtn");
+
+    suggestButton.on("click", function() {
+        var text = input.val();
+        var fromLang = "@ViewBag.KnownLangShort";
+        var toLang = "@ViewBag.UnknownLangShort";
+
+        if (text.length > 0) {
+            $.ajax({
+                type: "POST",
+                url: "/Translation/Translate",
+                data: { textToTranslate: text, fromLang: fromLang, toLang: toLang },
+                success: function (data) {
+                    var words = data.split(" ");
+                    var lastWord = words[words.length - 1];
+                    if (lastWord.length > 2) {
+                        $.ajax({
+                            type: "POST",
+                            url: "/Translation/Suggest",
+                            data: { word: lastWord, fromLang: fromLang, toLang: toLang },
+                            success: function (data) {
+                                var suggestionList = $("#suggestion-list");
+                                suggestionList.empty();
+                                if (data.length > 0) {
+                                    var suggestedText = data[0].translations[0].text;
+                                    suggestionLabel.text("Suggested: " + suggestedText);
+                                    suggestionLabel.show();
+                                    $("#KVoc").val(suggestedText);
+                                }
+                                else {
+                                    suggestionLabel.hide();
+                                }
+                            }
+                        });
+                    } else {
+                        suggestionLabel.hide();
+                    }
+                }
+            });
+        }
+        else {
+            suggestionLabel.hide();
+        }
+    });
+});
+</script>
+
+
+
