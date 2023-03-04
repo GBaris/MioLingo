@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\wwwroot\\js\\translate.js",
+      "PackagePath": "staticwebassets\\js\\translate.js"
+    },
+    {
       "Id": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

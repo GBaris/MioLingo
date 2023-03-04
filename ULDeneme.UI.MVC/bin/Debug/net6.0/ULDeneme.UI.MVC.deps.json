@@ -711,6 +711,7 @@
       },
       "ULDeneme.BLL/1.0.0": {
         "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
           "ULDeneme.Core": "1.0.0",
           "ULDeneme.DAL": "1.0.0",
           "ULDeneme.Model": "1.0.0",

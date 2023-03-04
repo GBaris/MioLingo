@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cMVitu6MDjaC0n0W73shHHqmZhKfj+naW/RDUlF//Oc=",
+  "Hash": "OZl86hSn9ipOhroX5XDkMCcwiigVQwrpnQJEPb7lN8Y=",
   "Source": "ULDeneme.UI.MVC",
   "BasePath": "_content/ULDeneme.UI.MVC",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\wwwroot\\js\\translate.js",
+      "SourceId": "ULDeneme.UI.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\wwwroot\\",
+      "BasePath": "_content/ULDeneme.UI.MVC",
+      "RelativePath": "js/translate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\translate.js"
     },
     {
       "Identity": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
