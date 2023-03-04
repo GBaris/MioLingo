@@ -39,8 +39,9 @@ namespace ULDeneme.UI.MVC.Controllers
             var sozlukResult = _sozlukBLL.GetSozlukById(sozlukID);
             ViewBag.Title = sozlukResult.Data.Name;
             var TranslationType = _translationTypeBLL.GetTypeById(sozlukResult.Data.TranslationTypeID);
-            @ViewBag.KnownLangShort = TranslationType.Data.KnownLangShort;
-            @ViewBag.UnknownLangShort = TranslationType.Data.UnknownLangShort;
+            ViewBag.TranslationTypeName = TranslationType.Data.Name;
+            ViewBag.KnownLangShort = TranslationType.Data.KnownLangShort;
+            ViewBag.UnknownLangShort = TranslationType.Data.UnknownLangShort;
             var userID = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
 
             if (!sozlukResult.IsSuccess || sozlukResult.Data.UserID != userID)
