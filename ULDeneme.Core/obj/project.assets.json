@@ -567,11 +567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+      "projectUniqueName": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.Core\\ULDeneme.Core.csproj",
       "projectName": "ULDeneme.Core",
-      "projectPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+      "projectPath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.Core\\ULDeneme.Core.csproj",
       "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osman\\Source\\Repos\\MioLingo\\ULDeneme.Core\\obj\\",
+      "outputPath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",

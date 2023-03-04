@@ -16,7 +16,7 @@ namespace ULDeneme.UI.MVCTests.Controllers
         public async Task Test_TranslateMethod_ReturnsCorrectResult()
         {
             // Arrange
-            var translatorService = new TranslatorService();
+            var translatorService = new TranslationService();
             var controller = new TranslationController(translatorService);
             var expected = "araba";
             var textToTranslate = "car";

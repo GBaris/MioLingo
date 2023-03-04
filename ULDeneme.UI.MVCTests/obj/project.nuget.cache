@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8B4DlIiUK5aGCUlzMcbhunhIWTnNKjj7yalplAHsuaoZKa+Lm+HEa1jjlm86cYitYXDtvRVJRdBHOlRRvMMgEQ==",
+  "dgSpecHash": "aanZ93xmP05euLZmPZvf0CZu4zVUBzdEPyp3QMREwrM+FfLgCaodB8c9gnDEYAhvE198TnbhT/DVCImE0XnzJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVCTests\\ULDeneme.UI.MVCTests.csproj",
+  "projectFilePath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.UI.MVCTests\\ULDeneme.UI.MVCTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osman\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

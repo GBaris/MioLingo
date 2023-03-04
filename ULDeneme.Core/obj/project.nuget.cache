@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vOQBbSwc+39YSYMdVww4w2D12+JeScH729vQ0K0ky33t4ehz1bWmMaM8XWvZXyjZZgvjd8PjFPdF7UT+MWLL7Q==",
+  "dgSpecHash": "kmJ4H70Ud5i5hNYGbTJy0bHV9ECCxUckdVLmxFap+RG6O6FUpXBK2+MGJnNX1bZoNEaGUjkQzeqcm1j6UD8wfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.Core\\ULDeneme.Core.csproj",
+  "projectFilePath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.Core\\ULDeneme.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

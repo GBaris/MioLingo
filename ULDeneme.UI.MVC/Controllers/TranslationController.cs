@@ -3,13 +3,14 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ULDeneme.BLL.Abstract;
 using ULDeneme.BLL.Concrete;
 
 namespace ULDeneme.UI.MVC.Controllers
 {
     public class TranslationController : Controller
     {
-        private readonly TranslatorService _translatorService;
+        private readonly ITanslatorBLL _translatorService;
         public class TranslationResponse
         {
             public List<Translation> Translations { get; set; }
@@ -20,16 +21,9 @@ namespace ULDeneme.UI.MVC.Controllers
             public string Text { get; set; }
             public string To { get; set; }
         }
-        public TranslationController(TranslatorService translatorService)
+        public TranslationController(ITanslatorBLL translatorService)
         {
             _translatorService = translatorService;
-        }
-
-        [HttpPost]
-        public async Task<string> Translate(string textToTranslate, string fromLang, string toLang)
-        {
-            var result = await _translatorService.TranslateText(textToTranslate, fromLang, toLang);
-            return result;
         }
 
         [HttpPost]
@@ -40,5 +34,6 @@ namespace ULDeneme.UI.MVC.Controllers
             var suggestedWords = suggestions.SelectMany(t => t.Translations.Select(tr => tr.Text)).ToList();
             return Json(suggestedWords);
         }
+
     }
 }

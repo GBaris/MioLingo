@@ -18,6 +18,8 @@ namespace ULDeneme.BLL.Concrete.DependencyInjection
             services.AddScoped<ITranslationTypeBLL,TranslationTypeService>();
             services.AddScoped<ISozlukBLL, SozlukService>();
             services.AddScoped<IVocabularyBLL, VocabularyService>();
+            services.AddScoped<ITanslatorBLL, TranslationService>();
+
         }
     }
 }

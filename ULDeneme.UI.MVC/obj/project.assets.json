@@ -3657,11 +3657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
       "projectName": "ULDeneme.UI.MVC",
-      "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
+      "projectPath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.UI.MVC\\ULDeneme.UI.MVC.csproj",
       "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.UI.MVC\\obj\\",
+      "outputPath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.UI.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3678,11 +3678,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj": {
-              "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.BLL\\ULDeneme.BLL.csproj"
+            "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.BLL\\ULDeneme.BLL.csproj": {
+              "projectPath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.BLL\\ULDeneme.BLL.csproj"
             },
-            "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
-              "projectPath": "C:\\Users\\osman\\source\\repos\\MioLingo\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj"
+            "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingo(04.03.223)\\ULDeneme.ViewModel\\ULDeneme.ViewModel.csproj"
             }
           }
         }

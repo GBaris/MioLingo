@@ -41,6 +41,7 @@ namespace ULDeneme.UI.MVC
             services.AddTransient<ISozlukBLL, SozlukService>();
             services.AddTransient<IVocabularyDAL, VocabularyRepository>();
             services.AddTransient<IVocabularyBLL, VocabularyService>();
+            services.AddTransient <ITanslatorBLL, TranslationService>();
             //Kimlik doğrulama işlemleri için gerekli ayarlar
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>

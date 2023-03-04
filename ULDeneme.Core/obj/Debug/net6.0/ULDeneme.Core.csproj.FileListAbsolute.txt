@@ -22,3 +22,15 @@ C:\Users\osman\source\repos\MioLingo\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Cor
 C:\Users\osman\source\repos\MioLingo\ULDeneme.Core\obj\Debug\net6.0\refint\ULDeneme.Core.dll
 C:\Users\osman\source\repos\MioLingo\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.pdb
 C:\Users\osman\source\repos\MioLingo\ULDeneme.Core\obj\Debug\net6.0\ref\ULDeneme.Core.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\bin\Debug\net6.0\ULDeneme.Core.deps.json
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\bin\Debug\net6.0\ULDeneme.Core.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\bin\Debug\net6.0\ULDeneme.Core.pdb
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.csproj.AssemblyReference.cache
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.AssemblyInfoInputs.cache
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.AssemblyInfo.cs
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.csproj.CoreCompileInputs.cache
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\refint\ULDeneme.Core.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ULDeneme.Core.pdb
+C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.Core\obj\Debug\net6.0\ref\ULDeneme.Core.dll
