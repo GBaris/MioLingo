@@ -9,113 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ULDeneme.UI.MVC
 build_property.RootNamespace = ULDeneme.UI.MVC
-build_property.ProjectDir = C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.UI.MVC\
+build_property.ProjectDir = C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\osman\Desktop\Yazmaca\MioLingo(04.03.223)\ULDeneme.UI.MVC
+build_property.MSBuildProjectDirectory = C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Home/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Home/Privacy.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Login/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Login/Login.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/QuizTest/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/QuizTest/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelRlc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/QuizTest/Learn.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/QuizTest/Learn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelRlc3RcTGVhcm4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/QuizTest/LearnResult.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/QuizTest/LearnResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelRlc3RcTGVhcm5SZXN1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Shared/Error.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Signup/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Signup/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Sozluk/AdminsSozluks.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Sozluk/AdminsSozluks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU296bHVrXEFkbWluc1Nvemx1a3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Sozluk/Create.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Sozluk/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU296bHVrXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Sozluk/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Sozluk/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU296bHVrXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Sozluk/Update.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Sozluk/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU296bHVrXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Sozluk/UsersSozluks.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Sozluk/UsersSozluks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU296bHVrXFVzZXJzU296bHVrcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/TranslationType/Create.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/TranslationType/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25UeXBlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/TranslationType/EmmptyTranslationTypeList.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/TranslationType/EmmptyTranslationTypeList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25UeXBlXEVtbXB0eVRyYW5zbGF0aW9uVHlwZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/TranslationType/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/TranslationType/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25UeXBlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/TranslationType/Update.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/TranslationType/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25UeXBlXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Vocabulary/AdminSozluksVoc.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Vocabulary/AdminSozluksVoc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJ1bGFyeVxBZG1pblNvemx1a3NWb2MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Vocabulary/Create.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Vocabulary/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJ1bGFyeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Vocabulary/Index.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Vocabulary/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJ1bGFyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Vocabulary/Update.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Vocabulary/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJ1bGFyeVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/_ViewImports.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/_ViewStart.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/osman/Desktop/Yazmaca/MioLingo(04.03.223)/ULDeneme.UI.MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/osman/Desktop/Yazmaca/MioLingoV1.1/ULDeneme.UI.MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pbvefyudeq
