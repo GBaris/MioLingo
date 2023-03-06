@@ -26,7 +26,6 @@
     <table class="table">
         <thead>
             <tr>
-                <th>ID</th>
                 <th>Name</th>
                 <th>Description</th>
                 <th>Translation Type</th>
@@ -38,7 +37,6 @@
             @foreach (var item in Model.Sozluks)
             {
                 <tr>
-                    <td>@item.ID</td>
                     <td>@item.Name</td>
                     <td>@item.Description</td>
                     <td>@item.TranslationType.Name</td>

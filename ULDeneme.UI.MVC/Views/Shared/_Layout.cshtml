@@ -81,50 +81,119 @@
         </nav>
     </header>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2">
-                <button class="navbar-toggler mt-4" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <nav id="sidebarMenu" class="sidebar-sticky collapse show">
-                    <div class="list-group list-group-flush mx-3 mt-4">
-                        <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Hoş Geldiniz</span>
-                        </a>
-                        <a asp-controller="Sozluk" asp-action="UsersSozluks" class="list-group-item list-group-item-action py-2 ripple active sozluklerim" style="display:@(User.Identity.IsAuthenticated==true ? "block":"none")">
-                            <i class="fas fa-chart-area fa-fw me-3"></i><span>Sözlüklerim</span>
-                        </a>
-                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="1" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-lock fa-fw me-3"></i><span>Dizi Sözlükleri</span></a>
-                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="2" class="list-group-item list-group-item-action py-2 ripple"><i class="fas fa-chart-line fa-fw me-3"></i><span>Film Sözlükleri</span></a>
-                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="3" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Mesleki Sözlükler</span>
-                        </a>
-                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="4" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Seviye Sözlükleri</span>
-                        </a>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!--Sidebar-->
+            <div class="row">
+                <div class="col-md-2 order-md-1">
+                    <div class="sidebar-toggler-wrapper">
+                        <button id="sidebar-toggler" class="navbar-toggler sidebar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
+                                aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
-                </nav>
-            </div>
-            <div class="col-md-10">
-                <main role="main" class="pb-3">
-                    @RenderBody()
-                </main>
+
+                    <nav id="sidebarMenu" class="sidebar-sticky collapse">
+                        <table class="table table-borderless table-responsive-md">
+                            <tbody>
+                                <tr>
+                                    <td class="py-2">
+                                        <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                                            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Hoş Geldiniz</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2" style="display:@(User.Identity.IsAuthenticated==true ? "block":"none")">
+                                        <a asp-controller="Sozluk" asp-action="UsersSozluks" class="list-group-item list-group-item-action py-2 ripple active sozluklerim">
+                                            <i class="fas fa-chart-area fa-fw me-3"></i><span>Sözlüklerim</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">
+                                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="1" class="list-group-item list-group-item-action py-2 ripple">
+                                            <i class="fas fa-lock fa-fw me-3"></i><span>Dizi Sözlükleri</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">
+                                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="2" class="list-group-item list-group-item-action py-2 ripple">
+                                            <i class="fas fa-chart-line fa-fw me-3"></i><span>Film Sözlükleri</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">
+                                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="3" class="list-group-item list-group-item-action py-2 ripple">
+                                            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Mesleki Sözlükler</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">
+                                        <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="4" class="list-group-item list-group-item-action py-2 ripple">
+                                            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Seviye Sözlükleri</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </nav>
+                </div>
+
+
+
+                <div class="col-md-10">
+                    <main role="main" class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
+
             </div>
         </div>
     </div>
-
-
 
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - MioLingo - GitHup <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $('#navbar-toggler').on('click', function () {
+                $('.navbar-collapse').slideToggle(300, function () {
+                    if ($(this).is(':visible')) {
+                        $(this).css('display', 'flex');
+                    }
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $('#sidebar-toggler').on('click', function () {
+                $(this).toggleClass('active');
+                $('#sidebarMenu').toggleClass('show');
+            });
+
+            $('.nav-item').off('click');
+
+            $('.sidebar-toggle').css('visibility', 'hidden');
+
+            $('#sidebarMenu .nav-link').on('click', function () {
+                $('#sidebar-toggler').addClass('active');
+                $('#sidebarMenu').removeClass('show');
+                $('.sidebar-toggle').css('visibility', 'visible');
+            });
+
+            $('#sidebarMenu').on('hidden.bs.collapse', function () {
+                $('.sidebar-toggle').css('visibility', 'hidden');
+            });
+        });
+    </script>
 </body>
 </html>
