@@ -32,6 +32,7 @@ namespace ULDeneme.UI.MVC
         [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient();
             services.AddDbContext<ULDenemeDbContext>(options => options.UseSqlServer("Server=OSMAN; Database=ULDenemeDB; Trusted_Connection=True; TrustServerCertificate=True"));
             services.AddTransient<ITranslationTypeDAL, TranslationTypeRepository>();
             services.AddTransient<ITranslationTypeBLL, TranslationTypeService>();
@@ -42,6 +43,7 @@ namespace ULDeneme.UI.MVC
             services.AddTransient<IVocabularyDAL, VocabularyRepository>();
             services.AddTransient<IVocabularyBLL, VocabularyService>();
             services.AddTransient <ITanslatorBLL, TranslationService>();
+            services.AddTransient<ISpeechBLL, SpeechService>();
             //Kimlik doğrulama işlemleri için gerekli ayarlar
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
