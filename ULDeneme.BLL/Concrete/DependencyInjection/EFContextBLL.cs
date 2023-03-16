@@ -19,7 +19,7 @@ namespace ULDeneme.BLL.Concrete.DependencyInjection
             services.AddScoped<ISozlukBLL, SozlukService>();
             services.AddScoped<IVocabularyBLL, VocabularyService>();
             services.AddScoped<ITanslatorBLL, TranslationService>();
-
+            services.AddScoped<ISpeechBLL, SpeechService>();
         }
     }
 }
