@@ -11,17 +11,22 @@ namespace ULDeneme.UI.MVC.Controllers
     public class QuizTestController : Controller
     {
         private readonly ISozlukBLL _sozlukBLL;
+        private readonly ITranslationTypeBLL _translationTypeBLL;
         private readonly ULDenemeDbContext _context;
 
-        public QuizTestController(ULDenemeDbContext context, ISozlukBLL sozlukBLL)
+        public QuizTestController(ULDenemeDbContext context, ISozlukBLL sozlukBLL,ITranslationTypeBLL translation)
         {
             _context = context;
             _sozlukBLL= sozlukBLL;
+            _translationTypeBLL= translation;
         }
 
         [HttpGet]
         public IActionResult Learn(int sozlukID)
         {
+            var translationType = _translationTypeBLL.GetTypeById(_sozlukBLL.GetSozlukById(sozlukID).Data.TranslationTypeID);
+            ViewBag.UnknownLangShort = translationType.Data.UnknownLangShort;
+
             var vocabularyList = _context.Vocabularies
                 .Where(v => v.SozlukID == sozlukID && v.IsActive) // sadece aktif kayıtları getiriyoruz
                 .ToList();

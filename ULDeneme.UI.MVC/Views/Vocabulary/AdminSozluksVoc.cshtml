@@ -19,6 +19,7 @@
         {
             <tr>
                 <td cl>
+                    <button type="button" onclick="textToSpeech('@item.UnKVoc', '@ViewBag.UnknownLangShort')" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:16px;color:cornflowerblue'></i></button>
                     @Html.DisplayFor(modelItem => item.UnKVoc)
                 </td>
                 <td>
@@ -28,4 +29,29 @@
         }
     </tbody>
 </table>
+
+<script>
+    async function textToSpeech(text, language) {
+
+        if (text.length > 0) {
+            const response = await fetch("/api/Speech/synthesize", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ text: text, language: language })
+            });
+
+            if (response.ok) {
+                const audioData = await response.arrayBuffer();
+                const audioBlob = new Blob([audioData], { type: "audio/mp3" });
+                const audioUrl = URL.createObjectURL(audioBlob);
+                const audio = new Audio(audioUrl);
+                audio.play();
+            } else {
+                console.error("Speech synthesis failed:", await response.text());
+            }
+        }
+    }
+</script>
 

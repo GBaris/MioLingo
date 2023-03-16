@@ -4,7 +4,7 @@
     <div class="row">
         <div class="form-group col-5">
             <label asp-for="UnKVoc" class="control-label"></label>
-            <input asp-for="UnKVoc" class="form-control" value="@Model.UnKVoc" />
+            <input asp-for="UnKVoc" class="form-control" value="@Model.UnKVoc" id="UnKVocUpdate" />
             <span asp-validation-for="UnKVoc" class="text-danger"></span>
         </div>
         <div class="form-group col-5">
@@ -18,13 +18,42 @@
             <input type="submit" value="Update" class="btn btn-primary" />
             <button type="button" id="cancelUpdate" class="btn btn-secondary">Cancel</button>
         </div>
+        <div class="form-group col-2" style="padding-top: 12px">
+            <button type="button" onclick="textToSpeech('@ViewBag.UnknownLangShort')" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:24px;color:cornflowerblue'></i></button>
+        </div>
     </div>
 </form>
 <script>
-    $(function () {
-        $("#cancelUpdate").click(function () {
-            $('#updateForm').hide();
-            $('#createForm').show();
+        $(function () {
+            $("#cancelUpdate").click(function () {
+                $('#updateForm').hide();
+                $('#createForm').show();
+            });
         });
-    });
+    async function textToSpeech() {
+        const textElement = document.getElementById("UnKVocUpdate") || document.getElementById("UnKVoc");
+        const text = textElement.value;
+        const language = '@ViewBag.UnknownLangShort';
+
+        if (text.length > 0) {
+            const response = await fetch("/api/Speech/synthesize", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({text: text, language: language})
+            });
+
+            if (response.ok) {
+                const audioData = await response.arrayBuffer();
+                const audioBlob = new Blob([audioData], { type: "audio/mp3" });
+                const audioUrl = URL.createObjectURL(audioBlob);
+                const audio = new Audio(audioUrl);
+                audio.play();
+            } else {
+                console.error("Speech synthesis failed:", await response.text());
+            }
+        }
+    }
+
 </script>

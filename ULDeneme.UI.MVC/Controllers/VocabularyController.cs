@@ -72,7 +72,8 @@ namespace ULDeneme.UI.MVC.Controllers
         {
             ViewBag.SozlukID = sozlukID;
             var sozlukResult = _sozlukBLL.GetSozlukById(sozlukID);
-
+            var TranslationType = _translationTypeBLL.GetTypeById(sozlukResult.Data.TranslationTypeID);
+            ViewBag.UnknownLangShort = TranslationType.Data.UnknownLangShort;
             if (!sozlukResult.IsSuccess)
             {
                 return NotFound("Sözlük bulunamadı");
@@ -130,8 +131,12 @@ namespace ULDeneme.UI.MVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Update(int id)
+        public IActionResult Update(int id,int sozlukID)
         {
+            var sozluk = _sozlukBLL.GetSozlukById(sozlukID); // Replace 'id' with the correct variable from your context.
+            var translationType = _translationTypeBLL.GetTypeById(sozluk.Data.TranslationTypeID);
+
+            ViewBag.UnknownLangShort = translationType.Data.UnknownLangShort;
             var vocabularyResult = _vocabularyBLL.GetVocByID(id);
             if (vocabularyResult.HasError)
             {
@@ -157,6 +162,8 @@ namespace ULDeneme.UI.MVC.Controllers
         [HttpPost]
         public IActionResult Update(VocabularyUpdateVM viewModel)
         {
+
+
             if (!ModelState.IsValid)
             {
                 // handle validation errors
