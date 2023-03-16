@@ -164,3 +164,12 @@ C:\Users\osman\source\repos\MioLingo\ULDeneme.UI.MVCTests\obj\Debug\net6.0\refin
 C:\Users\osman\source\repos\MioLingo\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.pdb
 C:\Users\osman\source\repos\MioLingo\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.genruntimeconfig.cache
 C:\Users\osman\source\repos\MioLingo\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ref\ULDeneme.UI.MVCTests.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.csproj.AssemblyReference.cache
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.AssemblyInfoInputs.cache
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.AssemblyInfo.cs
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.csproj.CoreCompileInputs.cache
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\refint\ULDeneme.UI.MVCTests.dll
+C:\Users\osman\Desktop\Yazmaca\MioLingoV1.1\ULDeneme.UI.MVCTests\obj\Debug\net6.0\ULDeneme.UI.MVCTests.pdb

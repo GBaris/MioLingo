@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -15,5 +16,6 @@ namespace ULDeneme.ViewModel.VocabularyViewModels
         [Required(ErrorMessage = "Known Vocabulary is required")]
         public string KVoc { get; set; }
         public int SozlukID { get; set; }
+
     }
 }
