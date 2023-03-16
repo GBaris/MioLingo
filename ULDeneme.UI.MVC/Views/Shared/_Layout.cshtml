@@ -18,6 +18,18 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ULDeneme.UI.MVC.styles.css" asp-append-version="true" />
     <link href="css/styles.css" rel="stylesheet" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        .sidebar-toggler-wrapper {
+            background-color: #6c757d;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+            .sidebar-toggler-wrapper button {
+                color: #fff;
+            }
+    </style>
 
 </head>
 <body>
@@ -174,26 +186,55 @@
             });
         });
 
-        $(document).ready(function () {
-            $('#sidebar-toggler').on('click', function () {
-                $(this).toggleClass('active');
-                $('#sidebarMenu').toggleClass('show');
-            });
+        var sidebarCollapse = function () {
+            var windowWidth = $(window).width();
+            if (windowWidth >= 768) {
+                $('#sidebar-collapse').removeClass('d-md-none');
+                $('#sidebar-collapse').addClass('show');
+                $('#sidebar-toggler').removeClass('show');
+                $('#sidebar-toggler').addClass('d-none');
+            } else {
+                $('#sidebar-collapse').addClass('d-md-none');
+                $('#sidebar-collapse').removeClass('show');
+                $('#sidebar-toggler').addClass('show');
+                $('#sidebar-toggler').removeClass('d-none');
+            }
+        };
 
-            $('.nav-item').off('click');
+        sidebarCollapse();
 
-            $('.sidebar-toggle').css('visibility', 'hidden');
-
-            $('#sidebarMenu .nav-link').on('click', function () {
-                $('#sidebar-toggler').addClass('active');
-                $('#sidebarMenu').removeClass('show');
-                $('.sidebar-toggle').css('visibility', 'visible');
-            });
-
-            $('#sidebarMenu').on('hidden.bs.collapse', function () {
-                $('.sidebar-toggle').css('visibility', 'hidden');
-            });
+        $(window).resize(function () {
+            sidebarCollapse();
         });
+
+        $('.nav-link').on('click', function () {
+            var windowWidth = $(window).width();
+            if (windowWidth < 768) {
+                $('#sidebar-collapse').removeClass('show');
+                $('#sidebar-toggler').addClass('show');
+                $('#sidebar-toggler').removeClass('d-none');
+            }
+        });
+
+        $('#sidebar-toggler').on('click', function () {
+            $(this).toggleClass('active');
+            $('#sidebar-collapse').toggleClass('show');
+        });
+
+        $('#sidebarMenu .nav-link').on('click', function () {
+            var windowWidth = $(window).width();
+            if (windowWidth < 768) {
+                $('#sidebar-collapse').removeClass('show');
+                $('#sidebar-toggler').addClass('show');
+                $('#sidebar-toggler').removeClass('d-none');
+            }
+        });
+
+        $('#sidebar-collapse').on('hidden.bs.collapse', function () {
+            $('#sidebar-toggler').removeClass('active');
+        });
+    });
+
     </script>
 </body>
 </html>
