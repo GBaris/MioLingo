@@ -6,6 +6,7 @@
             <label asp-for="UnKVoc" class="control-label"></label>
             <input asp-for="UnKVoc" class="form-control" id="UnKVoc" />
             <span asp-validation-for="UnKVoc" class="text-danger"></span>
+
         </div>
         <div class="form-group col-5">
             <label asp-for="KVoc" class="control-label"></label>
@@ -14,6 +15,9 @@
         </div>
         <div class="form-group col-2" style="padding-top: 24px">
             <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+        <div class="form-group col-2" style="padding-top: 12px">
+            <button type="button" onclick="textToSpeech()" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:24px;color:cornflowerblue'></i></button>
         </div>
     </div>
 </form>
@@ -44,4 +48,28 @@ $(document).ready(function () {
         }
     });
 });
+async function textToSpeech() {
+    const text = document.getElementById("UnKVoc").value;
+    const language = "@ViewBag.UnknownLangShort";
+
+    if (text.length > 0) {
+        const response = await fetch("/api/Speech/synthesize", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({text: text, language: language})
+        });
+
+        if (response.ok) {
+            const audioData = await response.arrayBuffer();
+            const audioBlob = new Blob([audioData], { type: "audio/mp3" });
+            const audioUrl = URL.createObjectURL(audioBlob);
+            const audio = new Audio(audioUrl);
+            audio.play();
+        } else {
+            console.error("Speech synthesis failed:", await response.text());
+        }
+    }
+}
 </script>
