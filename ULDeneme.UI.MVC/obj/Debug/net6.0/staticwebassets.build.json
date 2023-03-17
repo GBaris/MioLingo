@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uhkmidh0AOkEaJhUXybcZXBVYKcfhCqU4MTM/fqsybM=",
+  "Hash": "kDXb3kO89vLp/2qbTSA+V/tasiK5C2axR3uxr2bTcl0=",
   "Source": "ULDeneme.UI.MVC",
   "BasePath": "_content/ULDeneme.UI.MVC",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingoV1.1\\ULDeneme.UI.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ULDeneme.UI.MVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingoV1.1\\ULDeneme.UI.MVC\\wwwroot\\css\\QuisStyle.css",
+      "SourceId": "ULDeneme.UI.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingoV1.1\\ULDeneme.UI.MVC\\wwwroot\\",
+      "BasePath": "_content/ULDeneme.UI.MVC",
+      "RelativePath": "css/QuisStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\QuisStyle.css"
     },
     {
       "Identity": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingoV1.1\\ULDeneme.UI.MVC\\wwwroot\\css\\site.css",

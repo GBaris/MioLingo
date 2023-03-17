@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ULDeneme.UI.MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingoV1.1\\ULDeneme.UI.MVC\\wwwroot\\css\\QuisStyle.css",
+      "PackagePath": "staticwebassets\\css\\QuisStyle.css"
+    },
+    {
       "Id": "C:\\Users\\osman\\Desktop\\Yazmaca\\MioLingoV1.1\\ULDeneme.UI.MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
