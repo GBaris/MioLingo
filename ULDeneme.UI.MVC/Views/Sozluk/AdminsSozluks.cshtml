@@ -13,13 +13,13 @@
 <form id="sozlukForm" asp-action="AdminsSozluks" asp-controller="Sozluk" method="post">
     <div class="form-group col">
         <div class="row">
-            <div class="col-5 pt-2">
+            <div class="col-lg-5 col-md-8 col-sm-12 pt-2">
                 <select class="form-control" id="sel1" asp-for="TranslationTypeID" asp-items="@ViewBag.TranslationTypes">
                     <option value="0" disabled selected>Çeviri Türü Seçiniz</option>
                 </select>
                 <span asp-validation-for="TranslationTypeID" class="text-danger"></span>
             </div>
-            <div class="col-2 d-flex align-items-center pt-2">
+            <div class="col-lg-2 col-md-4 col-sm-12 pt-2">
                 <input type="hidden" asp-for="ThemeID" value="@Model.ThemeID" />
                 <button type="submit" class="btn btn-primary w-100 d-block justify-content-center">
                     Getir
@@ -36,7 +36,7 @@
                 <tr>
                     <th>Name</th>
                     <th>Desc.</th>
-                    <th>Translation</th>
+                    <th>Trans.</th>
                     <th></th>
                     <th></th>
                 </tr>
