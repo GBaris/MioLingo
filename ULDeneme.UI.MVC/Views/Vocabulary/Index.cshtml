@@ -21,7 +21,7 @@
 </div>
 
 <div class="row">
-    <div class="col-8">
+    <div class="col-12 col-md-8">
         <table class="table">
             <thead>
                 <tr>
@@ -47,7 +47,7 @@
                             @Html.DisplayFor(modelItem => item.KVoc)
                         </td>
                         <td>
-                            <a class="btn btn-primary btn-sm" onclick="openUpdateView('@item.ID', '@ViewBag.SozlukID')">Ediy</a>
+                            <a class="btn btn-primary btn-sm" onclick="openUpdateView('@item.ID', '@ViewBag.SozlukID')">Edit</a>
                         </td>
                         <td>
                             <a class="btn btn-danger btn-sm" onclick="openDeleteView('@item.ID')">Delete</a>
@@ -58,8 +58,9 @@
             </tbody>
         </table>
     </div>
-    <div class="col-4"></div>
+    <div class="col-12 col-md-4"></div>
 </div>
+
 
 <script>
     function openCreateView() {

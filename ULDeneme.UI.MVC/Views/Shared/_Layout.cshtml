@@ -24,9 +24,18 @@
             background-color: #6c757d;
             padding: 5px;
             margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
         }
 
-            .sidebar-toggler-wrapper button {
+            .sidebar-toggler-wrapper:before {
+                content: 'Menu';
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
                 color: #fff;
             }
     </style>
@@ -97,56 +106,45 @@
         <div class="container-fluid">
             <!--Sidebar-->
             <div class="row">
-                <div class="col-md-2 order-md-1">
-                    <div class="sidebar-toggler-wrapper">
-                        <button id="sidebar-toggler" class="navbar-toggler sidebar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
-                                aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                <div class="col-md-2">
+                    <div class="sidebar-toggler-wrapper navbar-toggler sidebar-toggler navbar-toggler-icon" id="sidebar-toggler-wrapper sidebar-toggler" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
+                         aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation" style="width:100%">
                     </div>
-
                     <nav id="sidebarMenu" class="sidebar-sticky collapse">
                         <table class="table table-borderless table-responsive-md">
                             <tbody>
                                 <tr>
-                                    <td class="py-2">
-                                        <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                                            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Hoş Geldiniz</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
                                     <td class="py-2" style="display:@(User.Identity.IsAuthenticated==true ? "block":"none")">
                                         <a asp-controller="Sozluk" asp-action="UsersSozluks" class="list-group-item list-group-item-action py-2 ripple active sozluklerim">
-                                            <i class="fas fa-chart-area fa-fw me-3"></i><span>Sözlüklerim</span>
+                                            <i class="fas fa-book fa-fw me-3"></i><span>Sözlüklerim</span>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="py-2">
                                         <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="1" class="list-group-item list-group-item-action py-2 ripple">
-                                            <i class="fas fa-lock fa-fw me-3"></i><span>Dizi Sözlükleri</span>
+                                            <i class="fas fa-tv fa-fw me-3"></i><span>Dizi Sözlükleri</span>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="py-2">
                                         <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="2" class="list-group-item list-group-item-action py-2 ripple">
-                                            <i class="fas fa-chart-line fa-fw me-3"></i><span>Film Sözlükleri</span>
+                                            <i class="fas fa-film fa-fw me-3"></i><span>Film Sözlükleri</span>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="py-2">
                                         <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="3" class="list-group-item list-group-item-action py-2 ripple">
-                                            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Mesleki Sözlükler</span>
+                                            <i class="fas fa-briefcase  fa-fw me-3"></i><span>Meslek Sözlükleri</span>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="py-2">
                                         <a asp-controller="Sozluk" asp-action="AdminsSozluks" asp-route-ThemeID="4" class="list-group-item list-group-item-action py-2 ripple">
-                                            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Seviye Sözlükleri</span>
+                                            <i class="fas fa-chart-line fa-fw me-3"></i><span>Seviye Sözlükleri</span>
                                         </a>
                                     </td>
                                 </tr>
@@ -178,62 +176,39 @@
     <script>
         $(document).ready(function () {
             $('#navbar-toggler').on('click', function () {
-                $('.navbar-collapse').slideToggle(300, function () {
-                    if ($(this).is(':visible')) {
-                        $(this).css('display', 'flex');
-                    }
-                });
+                $('.navbar-collapse').slideToggle(300);
             });
+
+            toggleSidebarVisibility();
+            $(window).resize(toggleSidebarVisibility);
         });
 
-        var sidebarCollapse = function () {
+        function toggleSidebarVisibility() {
             var windowWidth = $(window).width();
-            if (windowWidth >= 768) {
-                $('#sidebar-collapse').removeClass('d-md-none');
-                $('#sidebar-collapse').addClass('show');
-                $('#sidebar-toggler').removeClass('show');
-                $('#sidebar-toggler').addClass('d-none');
+            var currentPath = window.location.pathname;
+
+            if (windowWidth >= 768 || currentPath === "/" || currentPath.toLowerCase() === "/home" || currentPath.toLowerCase() === "/home/index") {
+                $("#sidebarMenu").addClass("show");
             } else {
-                $('#sidebar-collapse').addClass('d-md-none');
-                $('#sidebar-collapse').removeClass('show');
-                $('#sidebar-toggler').addClass('show');
-                $('#sidebar-toggler').removeClass('d-none');
+                $("#sidebarMenu").removeClass("show");
             }
-        };
+        }
 
-        sidebarCollapse();
-
-        $(window).resize(function () {
-            sidebarCollapse();
+        $(window).on('resize', function () {
+            toggleSidebarVisibility();
         });
 
         $('.nav-link').on('click', function () {
             var windowWidth = $(window).width();
             if (windowWidth < 768) {
-                $('#sidebar-collapse').removeClass('show');
-                $('#sidebar-toggler').addClass('show');
-                $('#sidebar-toggler').removeClass('d-none');
+                $('#sidebarMenu').removeClass('show');
             }
         });
 
         $('#sidebar-toggler').on('click', function () {
             $(this).toggleClass('active');
-            $('#sidebar-collapse').toggleClass('show');
+            $('#sidebarMenu').toggleClass('show');
         });
-
-        $('#sidebarMenu .nav-link').on('click', function () {
-            var windowWidth = $(window).width();
-            if (windowWidth < 768) {
-                $('#sidebar-collapse').removeClass('show');
-                $('#sidebar-toggler').addClass('show');
-                $('#sidebar-toggler').removeClass('d-none');
-            }
-        });
-
-        $('#sidebar-collapse').on('hidden.bs.collapse', function () {
-            $('#sidebar-toggler').removeClass('active');
-        });
-    });
 
     </script>
 </body>

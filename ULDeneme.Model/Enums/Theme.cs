@@ -10,7 +10,7 @@ namespace ULDeneme.Model.Enums
     {
         Dizi = 1,
         Film = 2,
-        Mesleki = 3,
+        Meslek = 3,
         Seviye = 4 
     }
 }
