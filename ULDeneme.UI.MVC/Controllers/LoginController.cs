@@ -30,7 +30,7 @@ namespace ULDeneme.UI.MVC.Controllers
         {
             return View();
         }
-        [HttpPost]
+
         [HttpPost]
         public IActionResult Login(UserLoginVM model)
         {
