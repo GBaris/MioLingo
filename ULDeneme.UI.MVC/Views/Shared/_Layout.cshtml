@@ -20,24 +20,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <style>
-        .sidebar-toggler-wrapper {
-            background-color: #6c757d;
-            padding: 5px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            cursor: pointer;
-        }
 
-            .sidebar-toggler-wrapper:before {
-                content: 'Menu';
-                position: absolute;
-                left: 50%;
-                transform: translateX(-50%);
-                color: #fff;
-            }
     </style>
 
 </head>
@@ -187,7 +170,7 @@
             var windowWidth = $(window).width();
             var currentPath = window.location.pathname;
 
-            if (windowWidth >= 768 || currentPath === "/" || currentPath.toLowerCase() === "/home" || currentPath.toLowerCase() === "/home/index") {
+            if (windowWidth >= 805 || currentPath === "/" || currentPath.toLowerCase() === "/home" || currentPath.toLowerCase() === "/home/index") {
                 $("#sidebarMenu").addClass("show");
             } else {
                 $("#sidebarMenu").removeClass("show");
@@ -200,7 +183,7 @@
 
         $('.nav-link').on('click', function () {
             var windowWidth = $(window).width();
-            if (windowWidth < 768) {
+            if (windowWidth < 805) {
                 $('#sidebarMenu').removeClass('show');
             }
         });

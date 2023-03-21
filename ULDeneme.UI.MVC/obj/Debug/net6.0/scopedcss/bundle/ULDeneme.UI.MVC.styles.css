@@ -3,47 +3,68 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-pbvefyudeq] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 a[b-pbvefyudeq] {
-  color: #0077cc;
+    color: #0077cc;
 }
 
 .btn-primary[b-pbvefyudeq] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active[b-pbvefyudeq], .nav-pills .show > .nav-link[b-pbvefyudeq] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .border-top[b-pbvefyudeq] {
-  border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-pbvefyudeq] {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow[b-pbvefyudeq] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy[b-pbvefyudeq] {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
+.sidebar-toggler-wrapper[b-pbvefyudeq] {
+    background-color: #6c757d;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+    .sidebar-toggler-wrapper[b-pbvefyudeq]:before {
+        content: 'Menu';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+    }
+
+
 .footer[b-pbvefyudeq] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
 }
