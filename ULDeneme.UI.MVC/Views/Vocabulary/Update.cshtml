@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="col d-flex align-items-center">
-                    <button type="button" onclick="textToSpeech('@ViewBag.UnknownLangShort')" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:24px;color:cornflowerblue'></i></button>
+                    <button type="button" onclick="textToSpeechUpdate('@ViewBag.UnknownLangShort', 'UnKVocUpdate')" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:24px;color:cornflowerblue'></i></button>
                 </div>
                 <span asp-validation-for="UnKVoc" class="text-danger"></span>
             </div>
@@ -43,10 +43,9 @@
                 $('#createForm').show();
             });
         });
-    async function textToSpeech() {
-        const textElement = document.getElementById("UnKVocUpdate") || document.getElementById("UnKVoc");
+    async function textToSpeechUpdate(language, elementId) {
+        const textElement = document.getElementById(elementId);
         const text = textElement.value;
-        const language = '@ViewBag.UnknownLangShort';
 
         if (text.length > 0) {
             const response = await fetch("/api/Speech/synthesize", {

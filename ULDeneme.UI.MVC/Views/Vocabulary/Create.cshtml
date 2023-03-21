@@ -11,7 +11,7 @@
                 </div>
                 <div class="col d-flex align-items-center">
                     <div class="input-group-append">
-                        <button type="button" onclick="textToSpeech()" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:24px;color:cornflowerblue'></i></button>
+                        <button type="button" onclick="textToSpeechCreate('@ViewBag.UnknownLangShort', 'UnKVoc')" style="border: none; background: transparent; outline: none;"><i class='fas fa-volume-down' style='font-size:24px;color:cornflowerblue'></i></button>
                     </div>
                 </div>
                 <span asp-validation-for="UnKVoc" class="text-danger"></span>
@@ -63,9 +63,10 @@ $(document).ready(function () {
         }
     });
 });
-async function textToSpeech() {
-    const text = document.getElementById("UnKVoc").value;
-    const language = "@ViewBag.UnknownLangShort";
+async function textToSpeechCreate(language, elementId) {
+    const textElement = document.getElementById(elementId);
+    const text = textElement.value;
+
 
     if (text.length > 0) {
         const response = await fetch("/api/Speech/synthesize", {
@@ -73,7 +74,7 @@ async function textToSpeech() {
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({text: text, language: language})
+            body: JSON.stringify({ text: text, language: language })
         });
 
         if (response.ok) {
@@ -87,4 +88,5 @@ async function textToSpeech() {
         }
     }
 }
+
 </script>

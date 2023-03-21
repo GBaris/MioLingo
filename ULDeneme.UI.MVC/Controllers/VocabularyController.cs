@@ -100,6 +100,10 @@ namespace ULDeneme.UI.MVC.Controllers
 
         public IActionResult Create(int sozlukID)
         {
+            var sozluk = _sozlukBLL.GetSozlukById(sozlukID); // Replace 'id' with the correct variable from your context.
+            var translationType = _translationTypeBLL.GetTypeById(sozluk.Data.TranslationTypeID);
+
+            ViewBag.UnknownLangShort = translationType.Data.UnknownLangShort;
             return View();
         }
 
